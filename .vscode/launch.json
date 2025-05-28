@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "DWarsop.Quickstart",
+      "type": "clr",
+      "request": "launch",
+      "preLaunchTask": "build dll",
+      "args": [],
+      "program": "D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "neverOpen",
+      "stopAtEntry": true
+    }
+  ]
+}
