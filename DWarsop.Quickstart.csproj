@@ -6,8 +6,8 @@
 
 		<RootNamespace>DWarsop</RootNamespace>
 		<AssemblyName>DWarsop.QuickStart</AssemblyName>
-		<OutputPath>D:/SteamLibrary/steamapps/common/RimWorld/Mods/DWarsop.QuickStart/1.5/Assemblies</OutputPath>
-		<VersionPrefix>1.0.0.0</VersionPrefix>
+		<OutputPath>D:/SteamLibrary/steamapps/common/RimWorld/Mods/DWarsop.QuickStart/1.6/Assemblies</OutputPath>
+		<VersionPrefix>1.1.0.0</VersionPrefix>
 
 		<DebugType>none</DebugType>
 
@@ -19,24 +19,30 @@
 		<Compile Include="../Source/*" />
 
 		<!-- Rimworld -->
-		<Reference Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/Assembly-CSharp.dll">
+		<Reference
+			Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/Assembly-CSharp.dll">
 			<Private>False</Private>
 		</Reference>
 
 		<!-- Unity Engine -->
-		<Reference Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.dll">
+		<Reference
+			Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.dll">
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.CoreModule.dll">
+		<Reference
+			Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.CoreModule.dll">
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.IMGUIModule.dll">
+		<Reference
+			Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.IMGUIModule.dll">
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.TextRenderingModule.dll">
+		<Reference
+			Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.TextRenderingModule.dll">
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.InputLegacyModule.dll">
+		<Reference
+			Include="D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.InputLegacyModule.dll">
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
